@@ -93,4 +93,4 @@ elif selection == "📑 Documentation":
 elif selection == "👩‍💻 Developer Info":
     st.title("Developer Credits")
     st.write("Developed with focus on full-stack AI integration.")
-    st.write("**Submission Deadline:** January 30, 2026")
+    st.write("**Submission Deadline:** February 5, 2026")

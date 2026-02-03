@@ -39,7 +39,7 @@ async def chat(request: ChatRequest):
         elif "tell me more" in user_text or "elaborate" in user_text:
             reply = "Certainly! I am running on a FastAPI backend and using Streamlit for this beautiful UI."
         elif "thank" in user_text:
-            reply = "You're very welcome! Good luck with your submission on the 30th."
+            reply = "You're very welcome! Good luck with your submission on the 5th."
         else:
             reply = "I understand you're asking about '" + request.message + "'. Since I'm in project-demo mode, I'm here to show how FastAPI processes your requests!"
             
